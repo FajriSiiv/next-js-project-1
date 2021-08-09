@@ -1,0 +1,16 @@
+@import "../Index.module.scss";
+.containeraljabar {
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  .buttoncounter {
+    display: flex;
+    button {
+      margin-right: 10px;
+    }
+  }
+  .pertambahan {
+    display: flex;
+    align-items: center;
+  }
+}

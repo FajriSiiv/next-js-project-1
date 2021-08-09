@@ -1,0 +1,73 @@
+@import "../Index.module.scss";
+
+.container {
+  .navjudul {
+    text-align: center;
+    color: $secondary-color;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  position: relative;
+  left: 0;
+  top: 0;
+  background: $primary-color;
+  width: 230px;
+  height: 100vh;
+  h1 {
+    margin: 0;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .lens {
+      width: 10px;
+      margin-left: 10px;
+    }
+    .navi {
+      overflow: hidden;
+      width: 100%;
+      button {
+        width: 100%;
+        z-index: 2;
+        background: white;
+        border-radius: 0px;
+        border-top: 1px solid $secondary-color;
+        border-bottom: 1px solid $secondary-color;
+      }
+    }
+    h1 {
+      font-size: 18px;
+    }
+    .link {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: all 0.3s;
+      transform: translateY(-100%);
+      margin-top: -75px;
+
+      a {
+        width: 100%;
+        font-weight: 500;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        position: relative;
+        margin: 0 10px;
+        transition: all 0.2s;
+        &:hover,
+        &:focus {
+          color: lightblue;
+        }
+      }
+    }
+  }
+  .navigationone {
+  }
+}
+.linkflex {
+  margin-top: 0px !important;
+  transform: translateY(0%) !important;
+}
